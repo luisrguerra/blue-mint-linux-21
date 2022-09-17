@@ -6,7 +6,7 @@ sudo apt install audacity
 sudo apt install pinta
 sudo apt install steam
 sudo apt install gimp
-sudo apt install winetricks
+sudo apt install evince
 sudo apt remove thunderbird
 sudo apt remove hexchat
 sudo apt remove hypnotix
@@ -29,6 +29,7 @@ sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubun
 sudo apt update
 sudo apt install --install-recommends winehq-devel
 sudo apt install exe-thumbnailer
+sudo apt install winetricks
 
 
 #Only Office install
