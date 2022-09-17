@@ -8,7 +8,6 @@ sudo apt install papirus-icon-theme
 sudo apt install steam
 sudo apt install gimp
 sudo apt install winetricks
-#sudo snap install snap-store
 sudo apt remove thunderbird
 sudo apt remove hexchat
 sudo apt remove hypnotix
@@ -48,11 +47,13 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
+#Manually installed
 #Monday Icon Theme Install
 #wget https://github.com/luisrguerra/monday-icon-theme/releases/download/0.3.1/monday-icon-theme-v0.3.1.deb
 #sudo dpkg -i monday-icon-theme-v0.3.1.deb
 #rm monday-icon-theme-v0.3.1.deb
 
+#Manually installed
 #Bill GTK Theme Install
 #wget https://github.com/luisrguerra/bill-theme/releases/download/0.2/Bill-Theme-V0.2.deb
 #sudo dpkg -i Bill-Theme-V0.2.deb
