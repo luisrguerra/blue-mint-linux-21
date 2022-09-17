@@ -254,7 +254,7 @@ StScrollBar {
   border-right-width: 0; }
   .popup-menu-item:active {
     color: #ffffff;
-    background-color: #0167D5; }
+    background-color: rgba(255, 255, 255, 0.1); }
   .popup-menu-item:insensitive {
     color: rgba(255, 255, 255, 0.37);
     background: none; }
@@ -838,8 +838,8 @@ StScrollBar {
 
 #notification {
   border: 1px solid #212222;
-  border-radius: 3px;
-  background-color: #303131;
+  border-radius: 8px;
+  background-color: #202020;
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -871,8 +871,15 @@ StScrollBar {
   min-height: 159px;
   color: rgba(255, 255, 255, 0.87); }
 
+
+.notification-button{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
 .notification-button, .notification-icon-button {
-  padding: 5px; }
+  padding: 5px; 
+}
 
 .notification-icon-button > StIcon {
   icon-size: 32px; }
