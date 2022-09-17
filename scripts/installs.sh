@@ -4,7 +4,6 @@ sudo apt update
 sudo apt install vlc
 sudo apt install audacity
 sudo apt install pinta
-sudo apt install papirus-icon-theme
 sudo apt install steam
 sudo apt install gimp
 sudo apt install winetricks
@@ -14,6 +13,7 @@ sudo apt remove hypnotix
 sudo apt remove sticky
 sudo apt remove drawing
 sudo apt remove warpinator
+sudo apt remove bulky
 
 
 #Add support to snaps
@@ -26,6 +26,7 @@ sudo apt install snapd
 sudo dpkg --add-architecture i386 
 sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt update
 sudo apt install --install-recommends winehq-devel
 sudo apt install exe-thumbnailer
 
