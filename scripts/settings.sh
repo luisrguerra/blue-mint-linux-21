@@ -14,7 +14,7 @@ cat <<EOF | sudo tee /etc/dconf/db/local.d/00-cubic
 name='Bill'
 
 [org/cinnamon/desktop/interface]
-gtk-theme='Bill'
+gtk-theme='Colloid-Light'
 
 [org/cinnamon/desktop/interface]
 icon-theme='Monday'
