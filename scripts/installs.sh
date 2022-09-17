@@ -31,6 +31,14 @@ sudo apt install --install-recommends winehq-devel
 sudo apt install exe-thumbnailer
 sudo apt install winetricks
 
+#Visual Studio Code
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget ca-certificates gnupg2
+echo deb [arch=amd64 signed-by=/usr/share/keyrings/vscode.gpg] https://packages.microsoft.com/repos/vscode stable main | sudo tee /etc/apt/sources.list.d/vscode.list
+sudo wget -O- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /usr/share/keyrings/vscode.gpg
+sudo apt update
+sudo apt install code
+
 
 #Only Office install
 mkdir -p ~/.gnupg
